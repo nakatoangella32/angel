@@ -1,0 +1,25 @@
+
+Let’s create a sample Web app in which we’ll cover some of the issues raised above
+- We’ll  create a personal Bank with ability to;
+Create an Account
+Withdraw Cash
+Deposit Cash
+Transfer Cash
+Check Balance
+
+1. Created Entity Relationship Diagram/ Enhanced ERD
+2. User has to create an account
+3. Cash is withdrawn from an account
+4. Cash is deposited to an account
+5. Cash is transfered to another account
+6. User can check balance
+
+1. User,  Account, Transaction, Currency
+User(firstname, lastname, dob, password, email)
+Currency(name, code)
+Account(account_number, acccount_name, current_balance)
+Transaction(datetime, status, reference, place, amount, type, account_to, narrative)
+
+
+
+
